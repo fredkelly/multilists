@@ -50,7 +50,7 @@
 				});
 				
 				// set height on containing list
-				obj.height(maxHeight);
+				obj.height(vertReturn > maxHeight ? vertReturn : maxHeight);
 
 			}
 			
